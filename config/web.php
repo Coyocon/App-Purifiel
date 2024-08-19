@@ -43,14 +43,16 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
+        
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                '' => 'puryfiel/index',
+                'contact' => 'puryfiel/contact',
             ],
         ],
-        */
+        
     ],
     'params' => $params,
 ];
